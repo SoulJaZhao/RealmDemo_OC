@@ -13,6 +13,8 @@
 		961C34BC1EC07117005F1ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961C34BA1EC07117005F1ED2 /* Main.storyboard */; };
 		961C34BE1EC07117005F1ED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961C34BD1EC07117005F1ED2 /* Assets.xcassets */; };
 		961C34C11EC07117005F1ED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961C34BF1EC07117005F1ED2 /* LaunchScreen.storyboard */; };
+		9648EF7D1EC0A63600BEF659 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 9648EF7C1EC0A63600BEF659 /* Post.m */; };
+		9648EF801EC0A76100BEF659 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 9648EF7F1EC0A76100BEF659 /* User.m */; };
 		F2C61880E46158FC1539817A /* libPods-RealmDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4FC0D50373ED7AD0294049 /* libPods-RealmDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,10 @@
 		961C34BD1EC07117005F1ED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		961C34C01EC07117005F1ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		961C34C21EC07117005F1ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9648EF7B1EC0A63600BEF659 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		9648EF7C1EC0A63600BEF659 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		9648EF7E1EC0A76100BEF659 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		9648EF7F1EC0A76100BEF659 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		AF4FC0D50373ED7AD0294049 /* libPods-RealmDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RealmDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A0ADAF43452A100FE1011C /* Pods-RealmDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-RealmDemo/Pods-RealmDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +70,7 @@
 		961C34A51EC07117005F1ED2 = {
 			isa = PBXGroup;
 			children = (
+				9648EF7A1EC0A60A00BEF659 /* Model */,
 				961C34B01EC07117005F1ED2 /* RealmDemo */,
 				961C34AF1EC07117005F1ED2 /* Products */,
 				78B3E4B65AC3DAA99146CCAC /* Pods */,
@@ -101,6 +108,17 @@
 				961C34B21EC07117005F1ED2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9648EF7A1EC0A60A00BEF659 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9648EF7B1EC0A63600BEF659 /* Post.h */,
+				9648EF7C1EC0A63600BEF659 /* Post.m */,
+				9648EF7E1EC0A76100BEF659 /* User.h */,
+				9648EF7F1EC0A76100BEF659 /* User.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,9 +243,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9648EF801EC0A76100BEF659 /* User.m in Sources */,
 				961C34B91EC07117005F1ED2 /* ViewController.m in Sources */,
 				961C34B61EC07117005F1ED2 /* AppDelegate.m in Sources */,
 				961C34B31EC07117005F1ED2 /* main.m in Sources */,
+				9648EF7D1EC0A63600BEF659 /* Post.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +404,7 @@
 				961C34C71EC07117005F1ED2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
