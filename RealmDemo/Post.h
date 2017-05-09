@@ -34,5 +34,9 @@ RLM_ARRAY_TYPE(Post);
 
 //置顶
 @property NSNumber <RLMBool> *isTop;
+//热点
+@property NSNumber <RLMInt> *hot;
+//冷点
+@property NSNumber <RLMInt> *cold;
 @end
 

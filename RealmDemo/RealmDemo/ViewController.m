@@ -81,19 +81,60 @@ RLM_ARRAY_TYPE(Dog);
     
     RLMRealm *r = [RLMRealm defaultRealm];
     
-    [r transactionWithBlock:^{
-        [r addObject:post];
-    }];
+//    [r transactionWithBlock:^{
+//        [r addObject:post];
+//    }];
+    
+    [r beginWriteTransaction];
+    
+    [r addObject:post];
+    
+    [r commitWriteTransaction];
     
     //删
-    [r transactionWithBlock:^{
-        [r deleteObject:post];
-    }];
+//    [r transactionWithBlock:^{
+//        [r deleteObject:post];
+//        
+//        [r deleteAllObjects];
+//    }];
     
     //改
 //    [r transactionWithBlock:^{
 //        post.timestamp = [NSDate date];
 //    }];
+    
+    //查
+    RLMResults *results = [Post objectsWhere:@"title==%@",@"Test For Change"];
+    
+    Post *postBeFound = [results firstObject];
+    
+    [r transactionWithBlock:^{
+        postBeFound.title = @"Test For Change";
+    }];
+    
+    
+    
+    //批量修改
+    RLMResults *allPosts = [Post allObjects];
+    
+    [r transactionWithBlock:^{
+        [allPosts setValue:[NSDate date] forKey:@"timestamp"];
+    }];
+    
+    //综合查询
+    RLMResults *moreThan100LookResults = [Post objectsWhere:@"look > 100"];
+    
+    RLMResults *between10And100Results = [Post objectsWhere:@"look > 10 AND look < 100"];
+    
+    RLMResults *between10And100Results_2 = [Post objectsWhere:@"look BETWEEN{10,100}"];
+    
+    RLMResults *containResults = [Post objectsWhere:@"title CONTAINS[c] 'Test'"];
+    
+    RLMResults *results_2 = [Post objectsWhere:@"comments.@count>10"];
+    RLMResults *results_3 = [results_2 objectsWhere:@"look > 100"];
+    
+    //结果排序
+    [results_3 sortedResultsUsingProperty:@"timestamp" ascending:YES];
 }
 
 

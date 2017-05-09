@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <Realm/Realm.h>
+#import "Post.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,36 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    RLMRealm *r = [RLMRealm defaultRealm];
+    
+    RLMRealmConfiguration *c = [RLMRealmConfiguration defaultConfiguration];
+    
+    
+    //数据库写入通知
+    [r addNotificationBlock:^(RLMNotification  _Nonnull notification, RLMRealm * _Nonnull realm) {
+        //UI更行
+    }];
+    
+    RLMResults *results = [Post allObjects];
+    [results addNotificationBlock:^(RLMResults * _Nullable results, RLMCollectionChange * _Nullable change, NSError * _Nullable error) {
+        if (!change) {
+            //第一次加载数据
+        }
+    }];
+    
+    //数据库迁移
+    c.schemaVersion = 3;
+    c.migrationBlock = ^(RLMMigration *migration, uint64_t oldSchemaVersion) {
+        // 目前我们还未进行数据迁移，因此 oldSchemaVersion == 0
+        if (oldSchemaVersion < 3) {
+            // 什么都不要做！Realm 会自行检测新增和需要移除的属性，然后自动更新硬盘上的数据库架构
+        }
+    };
+    
+    [RLMRealmConfiguration setDefaultConfiguration:c];
+    NSLog(@"%@",c);
+    
+    
     return YES;
 }
 
