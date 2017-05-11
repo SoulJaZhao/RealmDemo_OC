@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  RealmDemo
+//  RealmDemo1
 //
 //  Created by SoulJa on 2017/5/11.
 //  Copyright © 2017年 com.soulja. All rights reserved.
@@ -8,8 +8,7 @@
 
 #import "ViewController.h"
 #import <Realm/Realm.h>
-#import "Person.h"
-#import "Dog.h"
+
 
 @interface ViewController ()
 
@@ -25,20 +24,14 @@
     NSLog(@"fileURL=%@",config.fileURL);
     
     //初始化对象
-    Dog *d = [[Dog alloc] init];
-    d.nickName = @"wangcai";
-    
-    Person *p = [[Person alloc] init];
-    p.name = @"james";
-    p.age = @18;
-    [p.dogs addObject:d];
+   
     
     //获取数据库单利对象
     RLMRealm *realm = [RLMRealm defaultRealm];
     
     //写入数据库
     [realm beginWriteTransaction];
-    [realm addObject:p];
+    
     [realm commitWriteTransaction];
     
     //查询数据
