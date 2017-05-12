@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <Realm/Realm.h>
+#import "Post.h"
 
 
 @interface ViewController ()
@@ -35,7 +36,7 @@
     [realm commitWriteTransaction];
     
     //查询数据
-    RLMResults *results = [Person allObjects];
+    RLMResults *results = [Post allObjects];
     NSLog(@"results=%@",results);
 }
 

@@ -10,18 +10,9 @@
 
 @implementation Post
 
-// Specify default values for properties
++ (NSArray<NSString *> *)requiredProperties {
+    return @[@"title",@"content"];
+}
 
-//+ (NSDictionary *)defaultPropertyValues
-//{
-//    return @{};
-//}
-
-// Specify properties to ignore (Realm won't persist these)
-
-//+ (NSArray *)ignoredProperties
-//{
-//    return @[];
-//}
 
 @end
