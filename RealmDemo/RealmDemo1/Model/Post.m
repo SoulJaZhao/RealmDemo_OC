@@ -10,9 +10,26 @@
 
 @implementation Post
 
+//必要属性
 + (NSArray<NSString *> *)requiredProperties {
-    return @[@"title",@"content"];
+    return @[@"title"];
 }
 
+//主键
++ (NSString *)primaryKey {
+    return @"id";
+}
 
+//默认属性
++ (NSDictionary *)defaultPropertyValues {
+    NSDate *date = [NSDate date];
+    return @{
+                @"timestamp":date
+             };
+}
+
+//索引属性
++ (NSArray<NSString *> *)indexedProperties {
+    return @[@"title"];
+}
 @end

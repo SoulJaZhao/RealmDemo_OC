@@ -25,13 +25,13 @@
     NSLog(@"fileURL=%@",config.fileURL);
     
     //初始化对象
-    Dog *d = [[Dog alloc] init];
-    d.nickName = @"wangcai";
-    
     Person *p = [[Person alloc] init];
     p.name = @"james";
     p.age = @18;
-    [p.dogs addObject:d];
+    
+    Dog *d = [[Dog alloc] init];
+    d.nickName = @"wangcai";
+    d.owner = p;
     
     //获取数据库单利对象
     RLMRealm *realm = [RLMRealm defaultRealm];
@@ -39,10 +39,11 @@
     //写入数据库
     [realm beginWriteTransaction];
     [realm addObject:p];
+    [realm addObject:d];
     [realm commitWriteTransaction];
     
     //查询数据
-    RLMResults *results = [Person allObjects];
+    RLMResults *results = [Dog allObjects];
     NSLog(@"results=%@",results);
 }
 

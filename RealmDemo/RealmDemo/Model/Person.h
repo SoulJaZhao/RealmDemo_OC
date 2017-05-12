@@ -15,7 +15,7 @@
 //年龄
 @property NSNumber <RLMInt> *age;
 //狗
-@property RLMArray<Dog> *dogs;
+@property (readonly) RLMLinkingObjects *dogs;
 @end
 
 // This protocol enables typed collections. i.e.:

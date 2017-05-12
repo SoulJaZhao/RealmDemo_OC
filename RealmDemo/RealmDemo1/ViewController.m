@@ -25,15 +25,19 @@
     NSLog(@"fileURL=%@",config.fileURL);
     
     //初始化对象
+    Post *post = [[Post alloc] init];
+    post.id = [[[NSUUID UUID] UUIDString] integerValue];
+    post.title = @"帖子";
+    post.content = [NSData data];
    
     
     //获取数据库单利对象
     RLMRealm *realm = [RLMRealm defaultRealm];
     
     //写入数据库
-    [realm beginWriteTransaction];
-    
-    [realm commitWriteTransaction];
+    [realm transactionWithBlock:^{
+        [realm addObject:post];
+    }];
     
     //查询数据
     RLMResults *results = [Post allObjects];

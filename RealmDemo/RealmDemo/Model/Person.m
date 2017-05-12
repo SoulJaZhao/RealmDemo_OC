@@ -10,18 +10,10 @@
 
 @implementation Person
 
-// Specify default values for properties
-
-//+ (NSDictionary *)defaultPropertyValues
-//{
-//    return @{};
-//}
-
-// Specify properties to ignore (Realm won't persist these)
-
-//+ (NSArray *)ignoredProperties
-//{
-//    return @[];
-//}
++ (NSDictionary<NSString *,RLMPropertyDescriptor *> *)linkingObjectsProperties {
+    return @{
+                @"dogs":[RLMPropertyDescriptor descriptorWithClass:[Dog class] propertyName:@"owner"]
+                };
+}
 
 @end
