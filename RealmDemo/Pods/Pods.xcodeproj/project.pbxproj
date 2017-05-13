@@ -22,6 +22,19 @@
 				<string>-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@"2.7.0"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC</string>
 			</dict>
 		</dict>
+		<key>007CBA8693BEE4A98247DAA05243221D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A5877D03FC8560A0C0CE4D19F79EC6BE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>00ABB59C72714096B47DDBE1F184E5F7</key>
 		<dict>
 			<key>children</key>
@@ -142,6 +155,19 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>03166AD45F3984AD945E6EC9E4730764</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-RealmDemo2-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0367505A7CEF01FCE0F8F27EFB9B035C</key>
 		<dict>
@@ -266,6 +292,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>09F74E95B65E827EAADCC16A58AB2E09</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-RealmDemo2.a</string>
+			<key>path</key>
+			<string>libPods-RealmDemo2.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
 		<key>0A94101AC951DCE62702E07729C347F6</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -276,41 +317,6 @@
 			<string>RLMSyncPermissionValue.mm</string>
 			<key>path</key>
 			<string>Realm/RLMSyncPermissionValue.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0BA106F799800EEE5CC7D44EE7BDA4C9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DE14C2F198A7698E1AE3BB3FD8DC0790</string>
-				<string>57A7B250AA94D84EA913AF0513D4ADAA</string>
-				<string>7A89835AAFA42BF935F4C06598AF7E9F</string>
-				<string>D33DA02D644C4248D49F9F4673070631</string>
-				<string>4F11822C41B3DD9154F38FADE3AC0432</string>
-				<string>674387E0365150B091B5EFC2C7EBCB28</string>
-				<string>13B57C2FEC78137BA286B7BA1521AE9B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-RealmDemo</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-RealmDemo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C85D80DA05FF78508B1B0140E40B9E7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0BA106F799800EEE5CC7D44EE7BDA4C9</string>
-				<string>B797BD3B64E062F12E4D686CDF062325</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -461,19 +467,6 @@
 				<string>-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@"2.7.0"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC</string>
 			</dict>
 		</dict>
-		<key>13B57C2FEC78137BA286B7BA1521AE9B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-RealmDemo.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>1455C74C9408738BBDF1C32C8FD277B1</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -486,6 +479,21 @@
 			<string>Realm/RLMRealmUtil.mm</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>16EAA0F81AA4EBA1A95D4E5277CD4C73</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-RealmDemo.a</string>
+			<key>path</key>
+			<string>libPods-RealmDemo.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>17AB438FBE58E742ACECADC913EE15C0</key>
 		<dict>
@@ -512,6 +520,22 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@"2.7.0"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC</string>
 			</dict>
+		</dict>
+		<key>1A26557C32C610C6B9365245D6CDCFD2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>ADE7C80F5E6FBFAE3366B8935DEA14F3</string>
+				<string>53EA8E7E99DBEEB525EC1A66978F5285</string>
+				<string>520D6CB15481B10C5EB2E1D559BD00E2</string>
+				<string>AC38586C5E73535DECAA6B8D89C5D2E4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1AEE711AB4065CDEEF9D8F7EC7035FB2</key>
 		<dict>
@@ -731,24 +755,9 @@
 			<key>productName</key>
 			<string>Pods-RealmDemo</string>
 			<key>productReference</key>
-			<string>2586CFACF5C072A2E78FF7E7FF4D30AD</string>
+			<string>16EAA0F81AA4EBA1A95D4E5277CD4C73</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>2586CFACF5C072A2E78FF7E7FF4D30AD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-RealmDemo.a</string>
-			<key>path</key>
-			<string>libPods-RealmDemo.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>260049E48F553516D2A489EDF275B397</key>
 		<dict>
@@ -763,19 +772,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>263CCEE810D51DE40BDE00A161BDD634</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-RealmDemo1-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>264229BC03EA25037EE272B2B83F1FA6</key>
 		<dict>
@@ -860,7 +856,7 @@
 			<key>productName</key>
 			<string>Pods-RealmDemo1</string>
 			<key>productReference</key>
-			<string>959D01F74C6C8BE0590283DA16245D14</string>
+			<string>933F19A01B23BC49D4AB840BBEB668BA</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
@@ -970,6 +966,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>2F9958DEAA84B1049561BB28E3899DBF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-RealmDemo3-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>327A2DB57828782105E1224911419FE7</key>
 		<dict>
 			<key>containerPortal</key>
@@ -982,6 +991,19 @@
 			<string>5561CD23BA10D6D50314276EA08CC6C9</string>
 			<key>remoteInfo</key>
 			<string>Realm</string>
+		</dict>
+		<key>32D0960E34CA4C9E25C2100FA9484537</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-RealmDemo2-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>32F0B86DFB577CD0061E5593ACBD0F42</key>
 		<dict>
@@ -996,16 +1018,23 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>34F5DA33768BC65CD1E5C9E2BA9FD982</key>
+		<key>33AD40095AC17DBC0C03E53C288C3FF6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CBB3DE36805AF21409EC968A9691732F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>35310A5A1F7184A99763A452D4128470</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>Pods-RealmDemo1.debug.xcconfig</string>
+			<string>Pods-RealmDemo-acknowledgements.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1105,7 +1134,7 @@
 		<key>37F87CDF3366BC6A5F9928E9A3259EDF</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>34F5DA33768BC65CD1E5C9E2BA9FD982</string>
+			<string>B3E12E252B0CBD27ED4CFB0AD38143EB</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=appletvos*]</key>
@@ -1156,6 +1185,19 @@
 			<string>RLMSyncSessionRefreshHandle.mm</string>
 			<key>path</key>
 			<string>Realm/RLMSyncSessionRefreshHandle.mm</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3A8F42102A2F68D2D921A70A99EE7BD6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-RealmDemo.debug.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1289,6 +1331,19 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>42190923EEC0C936F13010FADDD6F5D3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-RealmDemo2.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>4298D359EED6A95800E2CE1B43E2AF71</key>
 		<dict>
@@ -1427,6 +1482,19 @@
 				</array>
 			</dict>
 		</dict>
+		<key>482B2F7D3E0DF7725CF0E5E8194EA4D9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-RealmDemo-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>48FCF73CED9963CA3290768FAA3DDEC6</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1451,6 +1519,23 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@"2.7.0"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC</string>
 			</dict>
+		</dict>
+		<key>4A36B3F3EBDFC043E6EA02772BBD51E6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>16EAA0F81AA4EBA1A95D4E5277CD4C73</string>
+				<string>933F19A01B23BC49D4AB840BBEB668BA</string>
+				<string>09F74E95B65E827EAADCC16A58AB2E09</string>
+				<string>89A8FF191D46D928F6385EA9598FC6C1</string>
+				<string>6FCC60EA81CE43587349BBE2613E9CE1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>4AB39337641596877DD5C4488BF6B684</key>
 		<dict>
@@ -1520,6 +1605,32 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>4D362E5B88632B30F35F22C287A982C1</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>CAA90714384C42696D35513D62C6D17F</string>
+			<key>buildPhases</key>
+			<array>
+				<string>D030A8A9D8ADD1CFF6413960C9FF95B3</string>
+				<string>007CBA8693BEE4A98247DAA05243221D</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>C5677991064B8056FF1F85B76C3F84ED</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-RealmDemo3</string>
+			<key>productName</key>
+			<string>Pods-RealmDemo3</string>
+			<key>productReference</key>
+			<string>89A8FF191D46D928F6385EA9598FC6C1</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
 		<key>4D511D3291C7A6C20EE1298BD11DC5C0</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1583,7 +1694,7 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>4F11822C41B3DD9154F38FADE3AC0432</key>
+		<key>4E82FF8A2F44F81345A42FCCF2E0B10F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1702,6 +1813,27 @@
 				</array>
 			</dict>
 		</dict>
+		<key>520D6CB15481B10C5EB2E1D559BD00E2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7F52DE7A4E267D6BC015709C85A20DB6</string>
+				<string>03166AD45F3984AD945E6EC9E4730764</string>
+				<string>9929407F38B27581D9175008EF2DE2A1</string>
+				<string>32D0960E34CA4C9E25C2100FA9484537</string>
+				<string>5853D6E0BEAFD697CBCDDD331412BF32</string>
+				<string>42190923EEC0C936F13010FADDD6F5D3</string>
+				<string>D8529AE0D6F025E8E516CA26214DBFB4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-RealmDemo2</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-RealmDemo2</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>524A2DF103568D1ACB669AC1AFBF5C9E</key>
 		<dict>
 			<key>fileRef</key>
@@ -1728,6 +1860,27 @@
 			<string>RLMAccessor.h</string>
 			<key>path</key>
 			<string>include/RLMAccessor.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>53EA8E7E99DBEEB525EC1A66978F5285</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>72F40CA1824D19710EFD615CCE868FD4</string>
+				<string>877BE8B5B5C11BB6C85BCFC803939FAB</string>
+				<string>6D97CA0C753E11DD2188B92819DF0800</string>
+				<string>7B0BA1C654A742063D45111ACFD8AA44</string>
+				<string>D73364E7AC3F6727B4C84A5FF47A53BD</string>
+				<string>B3E12E252B0CBD27ED4CFB0AD38143EB</string>
+				<string>B3ABCE52956CF7045DF59FD72A4E38E5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-RealmDemo1</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-RealmDemo1</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1765,7 +1918,7 @@
 			<key>productName</key>
 			<string>Realm</string>
 			<key>productReference</key>
-			<string>7F6C8F8C1A7BB7CDF9C9AA1BA367D8F1</string>
+			<string>6FCC60EA81CE43587349BBE2613E9CE1</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
@@ -1820,16 +1973,16 @@
 				<string>-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@"2.7.0"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC</string>
 			</dict>
 		</dict>
-		<key>57A7B250AA94D84EA913AF0513D4ADAA</key>
+		<key>5853D6E0BEAFD697CBCDDD331412BF32</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>text.script.sh</string>
 			<key>path</key>
-			<string>Pods-RealmDemo-acknowledgements.plist</string>
+			<string>Pods-RealmDemo2-resources.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1885,6 +2038,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>5A91CAB540C87D12EC22BB5889BCCBED</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-RealmDemo3-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>5D17358245FD23B0195EA32B05C79013</key>
 		<dict>
 			<key>fileRef</key>
@@ -1898,6 +2064,19 @@
 					<string>Private</string>
 				</array>
 			</dict>
+		</dict>
+		<key>5FD20740AC3830AD87337AEC0047A76D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-RealmDemo3.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5FFA5E9540BFDACA62945169F3E4014D</key>
 		<dict>
@@ -1994,6 +2173,50 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>6568337E779A73FBB43928D1965DABD8</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>D8529AE0D6F025E8E516CA26214DBFB4</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=appletvos*]</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY[sdk=watchos*]</key>
+				<string></string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
 		<key>66E83D88087A1028126FD5B0B3FC68D5</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2004,19 +2227,6 @@
 			<string>RLMObjectBase.mm</string>
 			<key>path</key>
 			<string>Realm/RLMObjectBase.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>674387E0365150B091B5EFC2C7EBCB28</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-RealmDemo.debug.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2051,7 +2261,7 @@
 		<key>69AA768D44BBAB7296CF8300B20E2E19</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>B98EE837D34620AC432DA1BBDB722C10</string>
+			<string>B3ABCE52956CF7045DF59FD72A4E38E5</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=appletvos*]</key>
@@ -2105,6 +2315,50 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>6BC1AA30AAA3A33F87F6876F39717F52</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>42190923EEC0C936F13010FADDD6F5D3</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=appletvos*]</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY[sdk=watchos*]</key>
+				<string></string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
 		<key>6CD9446C943EAED84A0FD6CD525E6CB8</key>
 		<dict>
 			<key>fileRef</key>
@@ -2140,6 +2394,19 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@"2.7.0"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC</string>
 			</dict>
+		</dict>
+		<key>6D97CA0C753E11DD2188B92819DF0800</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-RealmDemo1-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>6F18A5CEEE72FEAB2714E6DF733CE331</key>
 		<dict>
@@ -2184,6 +2451,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>6FCC60EA81CE43587349BBE2613E9CE1</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libRealm.a</string>
+			<key>path</key>
+			<string>libRealm.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
 		<key>6FEB7FAFC724101C740ED09DA0E20652</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2208,19 +2490,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@"2.7.0"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC</string>
 			</dict>
-		</dict>
-		<key>71187539B02B28B3E9904F25AF0D8FD1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-RealmDemo1-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>7152F4172BCEABD25FD08DE497E4192F</key>
 		<dict>
@@ -2247,6 +2516,19 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>72F40CA1824D19710EFD615CCE868FD4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-RealmDemo1-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>751E11BB3666670C08A55234A1030F67</key>
 		<dict>
@@ -2313,18 +2595,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7A89835AAFA42BF935F4C06598AF7E9F</key>
+		<key>7970AB8654EFC50B00BFCC56C44E1691</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-RealmDemo-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>5561CD23BA10D6D50314276EA08CC6C9</string>
+			<key>remoteInfo</key>
+			<string>Realm</string>
 		</dict>
 		<key>7AF018C55C1DDC5E81103BE28F15CD81</key>
 		<dict>
@@ -2338,6 +2620,19 @@
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>7B0BA1C654A742063D45111ACFD8AA44</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-RealmDemo1-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>7CFFCC7FE907D1D1D3C9D49459AA5A65</key>
 		<dict>
@@ -2373,8 +2668,8 @@
 				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
 				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
 				<string>89634860280EF8607D1B5C01FFE9489B</string>
-				<string>9CD21518B3C9AC9ACAA583136B5335B1</string>
-				<string>0C85D80DA05FF78508B1B0140E40B9E7</string>
+				<string>4A36B3F3EBDFC043E6EA02772BBD51E6</string>
+				<string>1A26557C32C610C6B9365245D6CDCFD2</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -2486,20 +2781,18 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>7F6C8F8C1A7BB7CDF9C9AA1BA367D8F1</key>
+		<key>7F52DE7A4E267D6BC015709C85A20DB6</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
 			<key>includeInIndex</key>
-			<string>0</string>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libRealm.a</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
 			<key>path</key>
-			<string>libRealm.a</string>
+			<string>Pods-RealmDemo2-acknowledgements.markdown</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>802B1E918CFD5F6FD3238E5530AED7EB</key>
 		<dict>
@@ -2561,7 +2854,7 @@
 		<key>83014488D5E2944B6240D5DB898320CD</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>13B57C2FEC78137BA286B7BA1521AE9B</string>
+			<string>8798A5E6622C428888318EDF76254E78</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=appletvos*]</key>
@@ -2730,6 +3023,32 @@
 				<string>-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@"2.7.0"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC</string>
 			</dict>
 		</dict>
+		<key>877BE8B5B5C11BB6C85BCFC803939FAB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-RealmDemo1-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8798A5E6622C428888318EDF76254E78</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-RealmDemo.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>88374591826CCB6CE64BB730C182112E</key>
 		<dict>
 			<key>fileRef</key>
@@ -2780,6 +3099,21 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@"2.7.0"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC</string>
 			</dict>
+		</dict>
+		<key>89A8FF191D46D928F6385EA9598FC6C1</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-RealmDemo3.a</string>
+			<key>path</key>
+			<string>libPods-RealmDemo3.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>89CBF4D3627B8188838F7D7D377EE8A8</key>
 		<dict>
@@ -2890,18 +3224,20 @@
 				<string>-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@"2.7.0"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC</string>
 			</dict>
 		</dict>
-		<key>92F8AE6717B1B7A5960C49915082C95C</key>
+		<key>933F19A01B23BC49D4AB840BBEB668BA</key>
 		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<key>name</key>
+			<string>libPods-RealmDemo1.a</string>
 			<key>path</key>
-			<string>Pods-RealmDemo1-acknowledgements.plist</string>
+			<string>libPods-RealmDemo1.a</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
 		<dict>
@@ -2922,20 +3258,19 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>959D01F74C6C8BE0590283DA16245D14</key>
+		<key>93E92A694C61E856F5A841B5240BED23</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
+			<key>buildConfigurations</key>
+			<array>
+				<string>6BC1AA30AAA3A33F87F6876F39717F52</string>
+				<string>6568337E779A73FBB43928D1965DABD8</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-RealmDemo1.a</string>
-			<key>path</key>
-			<string>libPods-RealmDemo1.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>97343707A9EAB93EEEFFCA48EDF6F95A</key>
 		<dict>
@@ -2968,18 +3303,40 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9CD21518B3C9AC9ACAA583136B5335B1</key>
+		<key>9929407F38B27581D9175008EF2DE2A1</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>2586CFACF5C072A2E78FF7E7FF4D30AD</string>
-				<string>959D01F74C6C8BE0590283DA16245D14</string>
-				<string>7F6C8F8C1A7BB7CDF9C9AA1BA367D8F1</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-RealmDemo2-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9980A068C975B266AC99B963F78EF753</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>Products</string>
+			<string>Realm</string>
+			<key>target</key>
+			<string>5561CD23BA10D6D50314276EA08CC6C9</string>
+			<key>targetProxy</key>
+			<string>7970AB8654EFC50B00BFCC56C44E1691</string>
+		</dict>
+		<key>99BE2B07CDF44A56A22597F60E66CA9F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-RealmDemo-frameworks.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2998,7 +3355,7 @@
 		<key>A010C2FEFBC51689CA1244F639EBB086</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>674387E0365150B091B5EFC2C7EBCB28</string>
+			<string>3A8F42102A2F68D2D921A70A99EE7BD6</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=appletvos*]</key>
@@ -3051,6 +3408,50 @@
 			<string>Realm/RLMSyncConfiguration.mm</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A12C4491691F5B0EA0473C860668FBA3</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>5FD20740AC3830AD87337AEC0047A76D</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=appletvos*]</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY[sdk=watchos*]</key>
+				<string></string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>A227A1EF2CC7C572ED83FBFD566E8A4B</key>
 		<dict>
@@ -3188,6 +3589,13 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>A5877D03FC8560A0C0CE4D19F79EC6BE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CBB3DE36805AF21409EC968A9691732F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>A5F5ADCA8723F48EB29B70CC287F73D1</key>
 		<dict>
@@ -3363,16 +3771,24 @@
 				<string>-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@"2.7.0"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC</string>
 			</dict>
 		</dict>
-		<key>AB0847BE0E9B98EDC0FFCCBA397B8A31</key>
+		<key>AC38586C5E73535DECAA6B8D89C5D2E4</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>B28FC81B37A80222789D65F642ECF6CF</string>
+				<string>E8886743FA8541331BF1F993B64A6CF6</string>
+				<string>2F9958DEAA84B1049561BB28E3899DBF</string>
+				<string>D25EBA18D2EBA9C1F42BD64F2EF315FF</string>
+				<string>5A91CAB540C87D12EC22BB5889BCCBED</string>
+				<string>5FD20740AC3830AD87337AEC0047A76D</string>
+				<string>EFE5AA826EE520FC2E2881FDCD4FE875</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-RealmDemo3</string>
 			<key>path</key>
-			<string>Pods-RealmDemo1-acknowledgements.markdown</string>
+			<string>Target Support Files/Pods-RealmDemo3</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3444,6 +3860,27 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>ADE7C80F5E6FBFAE3366B8935DEA14F3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E6CC3F3365A94AFFBD627B2DF904045A</string>
+				<string>35310A5A1F7184A99763A452D4128470</string>
+				<string>482B2F7D3E0DF7725CF0E5E8194EA4D9</string>
+				<string>99BE2B07CDF44A56A22597F60E66CA9F</string>
+				<string>4E82FF8A2F44F81345A42FCCF2E0B10F</string>
+				<string>3A8F42102A2F68D2D921A70A99EE7BD6</string>
+				<string>8798A5E6622C428888318EDF76254E78</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-RealmDemo</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-RealmDemo</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>AFBF7E97F9267DBBABDB8CC020E51BF0</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -3510,6 +3947,19 @@
 				<string>-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@"2.7.0"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC</string>
 			</dict>
 		</dict>
+		<key>B28FC81B37A80222789D65F642ECF6CF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-RealmDemo3-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>B34EE0C09785716EE029430118979F8F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -3525,6 +3975,32 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>B3ABCE52956CF7045DF59FD72A4E38E5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-RealmDemo1.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B3E12E252B0CBD27ED4CFB0AD38143EB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-RealmDemo1.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>B4E72AAAE2D2AA67213E120A39E3934E</key>
 		<dict>
 			<key>fileRef</key>
@@ -3536,27 +4012,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@"2.7.0"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC</string>
 			</dict>
-		</dict>
-		<key>B797BD3B64E062F12E4D686CDF062325</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AB0847BE0E9B98EDC0FFCCBA397B8A31</string>
-				<string>92F8AE6717B1B7A5960C49915082C95C</string>
-				<string>DDA0C6CC99EFF38EE476D51714F26569</string>
-				<string>71187539B02B28B3E9904F25AF0D8FD1</string>
-				<string>263CCEE810D51DE40BDE00A161BDD634</string>
-				<string>34F5DA33768BC65CD1E5C9E2BA9FD982</string>
-				<string>B98EE837D34620AC432DA1BBDB722C10</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-RealmDemo1</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-RealmDemo1</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B7B004A7BF1AB9C4E2142BA090BDB1D7</key>
 		<dict>
@@ -3599,19 +4054,6 @@
 					<string>Private</string>
 				</array>
 			</dict>
-		</dict>
-		<key>B98EE837D34620AC432DA1BBDB722C10</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-RealmDemo1.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B9F3E49A52D9870D645C3A8B7980F799</key>
 		<dict>
@@ -3677,6 +4119,50 @@
 			<string>Realm/ObjectStore/src/impl/object_notifier.cpp</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BCB5471D841019ADAD19DBB0B8A1A3A6</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>EFE5AA826EE520FC2E2881FDCD4FE875</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=appletvos*]</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY[sdk=watchos*]</key>
+				<string></string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
 		<key>BCED9BB536C814E3EE5CA75755C0F27B</key>
 		<dict>
@@ -3790,6 +4276,17 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>C5677991064B8056FF1F85B76C3F84ED</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Realm</string>
+			<key>target</key>
+			<string>5561CD23BA10D6D50314276EA08CC6C9</string>
+			<key>targetProxy</key>
+			<string>DBD0D7ABD228D4DCCE93842B53D54A9B</string>
+		</dict>
 		<key>C8FD35DB7E260C6AAC4BAD0A40C29F63</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -3859,6 +4356,20 @@
 			<string>Realm/RLMSyncPermissionOfferResponse.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CAA90714384C42696D35513D62C6D17F</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>A12C4491691F5B0EA0473C860668FBA3</string>
+				<string>BCB5471D841019ADAD19DBB0B8A1A3A6</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>CB6A3B061E87ABA9C3911A30FB1BC5B3</key>
 		<dict>
@@ -3939,6 +4450,19 @@
 				<string>-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@"2.7.0"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC</string>
 			</dict>
 		</dict>
+		<key>CD994CF9880D7AC5DE038E58949741EA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E8B61A7904DF4017A4C71567D985401F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>CEC4D87D74BF3048F6E2F61C0169CFDC</key>
 		<dict>
 			<key>fileRef</key>
@@ -3960,6 +4484,19 @@
 			<string>include/RLMSyncPermissionOffer.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D030A8A9D8ADD1CFF6413960C9FF95B3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>FB8E57F7148FFD72D6E9375101D5F94A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>D058AF11EDD9A39A40547A518F83165C</key>
 		<dict>
@@ -3990,7 +4527,7 @@
 		<key>D07CA35823AE8BE56DB9F6AF1FA7A91E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DDA0C6CC99EFF38EE476D51714F26569</string>
+			<string>6D97CA0C753E11DD2188B92819DF0800</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -4057,6 +4594,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>D25EBA18D2EBA9C1F42BD64F2EF315FF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-RealmDemo3-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>D27A38F933407D0D50AC7B69AF2E9E60</key>
 		<dict>
 			<key>fileRef</key>
@@ -4080,19 +4630,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@"2.7.0"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC</string>
 			</dict>
-		</dict>
-		<key>D33DA02D644C4248D49F9F4673070631</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-RealmDemo-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D37F98CC741494349FEC1218116E1E14</key>
 		<dict>
@@ -4132,7 +4669,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>9CD21518B3C9AC9ACAA583136B5335B1</string>
+			<string>4A36B3F3EBDFC043E6EA02772BBD51E6</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -4143,6 +4680,8 @@
 			<array>
 				<string>24B7E9DB1832AAAD0E98D857D04AC711</string>
 				<string>29BBB8C7FB77A275522917B3E7733680</string>
+				<string>D7DF6BF185792D296A92279DE0FFBC74</string>
+				<string>4D362E5B88632B30F35F22C287A982C1</string>
 				<string>5561CD23BA10D6D50314276EA08CC6C9</string>
 			</array>
 		</dict>
@@ -4158,6 +4697,58 @@
 			<string>RLMProperty.h</string>
 			<key>path</key>
 			<string>include/RLMProperty.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D73364E7AC3F6727B4C84A5FF47A53BD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-RealmDemo1-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D7DF6BF185792D296A92279DE0FFBC74</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>93E92A694C61E856F5A841B5240BED23</string>
+			<key>buildPhases</key>
+			<array>
+				<string>CD994CF9880D7AC5DE038E58949741EA</string>
+				<string>DD626CF1C72E3C30C21F51F356D51879</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>9980A068C975B266AC99B963F78EF753</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-RealmDemo2</string>
+			<key>productName</key>
+			<string>Pods-RealmDemo2</string>
+			<key>productReference</key>
+			<string>09F74E95B65E827EAADCC16A58AB2E09</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>D8529AE0D6F025E8E516CA26214DBFB4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-RealmDemo2.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -4200,6 +4791,32 @@
 				<string>-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@"2.7.0"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC</string>
 			</dict>
 		</dict>
+		<key>DBD0D7ABD228D4DCCE93842B53D54A9B</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>5561CD23BA10D6D50314276EA08CC6C9</string>
+			<key>remoteInfo</key>
+			<string>Realm</string>
+		</dict>
+		<key>DD626CF1C72E3C30C21F51F356D51879</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>33AD40095AC17DBC0C03E53C288C3FF6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>DD79AD8C47335071368AF4DBD567BF91</key>
 		<dict>
 			<key>fileRef</key>
@@ -4211,32 +4828,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@"2.7.0"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC</string>
 			</dict>
-		</dict>
-		<key>DDA0C6CC99EFF38EE476D51714F26569</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-RealmDemo1-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE14C2F198A7698E1AE3BB3FD8DC0790</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-RealmDemo-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DE6F01C9CF2B35B195390FD8CEE84167</key>
 		<dict>
@@ -4524,6 +5115,19 @@
 				</array>
 			</dict>
 		</dict>
+		<key>E6CC3F3365A94AFFBD627B2DF904045A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-RealmDemo-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>E836AB34D2DBA1112667589867ED8738</key>
 		<dict>
 			<key>fileRef</key>
@@ -4538,10 +5142,30 @@
 				</array>
 			</dict>
 		</dict>
+		<key>E8886743FA8541331BF1F993B64A6CF6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-RealmDemo3-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E8B61A7904DF4017A4C71567D985401F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9929407F38B27581D9175008EF2DE2A1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>E9D25D30FBED75654B7D26592C2E9EAC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7A89835AAFA42BF935F4C06598AF7E9F</string>
+			<string>482B2F7D3E0DF7725CF0E5E8194EA4D9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -4664,6 +5288,19 @@
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
 			<string>Realm-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFE5AA826EE520FC2E2881FDCD4FE875</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-RealmDemo3.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -4870,6 +5507,13 @@
 			<string>Realm/RLMSyncPermissionResults.mm</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FB8E57F7148FFD72D6E9375101D5F94A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2F9958DEAA84B1049561BB28E3899DBF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>FC88087159A4563071FAFF240F11021E</key>
 		<dict>

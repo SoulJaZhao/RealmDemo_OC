@@ -8,3 +8,12 @@ end
 target 'RealmDemo1' do
 pod 'Realm','~>2.7.0'
 end
+
+target 'RealmDemo2' do
+    pod 'Realm','~>2.7.0'
+end
+
+target 'RealmDemo3' do
+    pod 'Realm','~>2.7.0'
+end
+
