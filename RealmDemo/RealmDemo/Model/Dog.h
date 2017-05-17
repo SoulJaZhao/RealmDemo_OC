@@ -15,6 +15,7 @@
 
 //主人
 @property Person *owner;
+
 @end
 
 // This protocol enables typed collections. i.e.:
